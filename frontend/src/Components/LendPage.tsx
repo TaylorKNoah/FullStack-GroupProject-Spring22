@@ -4,6 +4,11 @@ import { LendMock } from "../MockData";
 import getLendItems from "../Services/LendService";
 
 
+// TODO:
+//   - Add infinite scroll
+//   - https://www.npmjs.com/package/react-infinite-scroller
+
+
 interface cardProps {
 	item: string,
 	posted: string,
@@ -11,7 +16,6 @@ interface cardProps {
 	lender: string,
 	imguri?: string
 }
-
 
 
 const ItemCard = (props: cardProps) => {
